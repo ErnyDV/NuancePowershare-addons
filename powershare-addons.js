@@ -26,7 +26,7 @@
         const bannerInfo = {};
 
         names.forEach((nameElement, index) => {
-            const name = nameElement.textContent.trim();
+            const name = nameElement.textContent.trim().toLocaleLowerCase();
             const dob = dobs[index].textContent.trim();
 
             if (bannerInfo[name]) {
