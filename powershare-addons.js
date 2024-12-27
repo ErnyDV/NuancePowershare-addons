@@ -169,13 +169,14 @@
         })
     }else {
         let btnBlock = document.querySelector('#btnBlock');
-        console.log(btnBlock)
         let printBtn = document.createElement('a');
         printBtn.classList.add('btn', 'btn-primary');
         printBtn.style.marginLeft = '600px'
         printBtn.textContent = 'Print'
 
-        btnBlock.appendChild(printBtn)
+        if(btnBlock){
+            btnBlock.appendChild(printBtn)
+        }
 
         printBtn.addEventListener('click', function(){
             sortAndPrintBannerInfo()
