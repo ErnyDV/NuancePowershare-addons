@@ -19,5 +19,5 @@
 - **New print link**  
    Print the names , exam amount (for each patient individually) and dates of birth in a clean, formatted manner, removing unnecessary details.
 
-- **Advanced image searching**  
+- **Typed image searching**  
    On the advanced image searching tab theres a datepicker to input the date of birth instead I removed the readonly property on it to allow typing.
