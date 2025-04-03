@@ -17,7 +17,7 @@
     select all link added to the actions list on the **PACS tab** that allows to select all nominations on your current page [25].
 
 - **New print link**  
-   Print the names , exam amount (for each patient individually) and dates of birth in a clean, formatted manner, removing unnecessary details.
+   Print the names , exam amount (for each patient individually) and dates of birth in a clean, formatted manner, removing unnecessary details and any duplicate patients will be compacted into one when printing.
 
 - **Typed image searching**  
    On the advanced image searching tab theres a datepicker to input the date of birth instead I removed the readonly property on it to allow typing.
